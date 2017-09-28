@@ -1,0 +1,12 @@
+/*
+	This files contain only common css aka generalized css for the project
+*/
+
+/*
+	This reset the default margin and padding
+	for all browser
+*/
+*{
+	margin : 0 !important;
+	padding: 0 !important;
+}
