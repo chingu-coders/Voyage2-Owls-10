@@ -6,7 +6,6 @@
 	This reset the default margin and padding
 	for all browser
 */
-<<<<<<< HEAD
 	*{
 		margin : 0 ;
 		padding: 0 ;
@@ -24,9 +23,3 @@
 	a{
 		text-decoration:none;
 	}
-=======
-*{
-	margin : 0 !important;
-	padding: 0 !important;
-}
->>>>>>> parent of 5cbc78b... added common css property
