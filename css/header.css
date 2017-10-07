@@ -29,12 +29,12 @@
 		
 		.header-content-wrapper{
 			overflow:hidden;
-			padding-bottom:2em;
+			margin-bottom:7em;
 		}
 		
 		.header-content-wrapper::after,
 		.header-content-wrapper::before{
-			content:" ";
+			content:"";
 			display:table;
 		}
 		.header-content-wrapper::after{
@@ -71,7 +71,7 @@
 		}
 		
 		.header-content-inner2 img{
-			height:497px;
+			height:31em;
 			width:100%;
 		}
 		
