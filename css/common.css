@@ -18,8 +18,53 @@
 		/*border:1px solid #000;*/
 	}
 	
+	html, body {
+		height: 100%;
+	}
+	
 	/*no links are having any underline bar - so added in common.css for this project*/
 	/*this makes links to have no-underline under its state*/
 	a{
 		text-decoration:none;
 	}
+	
+	
+	/*
+		Following are 
+   	    Project
+		Specific common files
+	*/
+	
+	/*on selection used specified color for different browser*/
+	::-moz-selection {
+		background-color: #21CDB2 ;
+		color: #fff ;
+	}
+	
+	::-webkit-selection {
+		background-color: #21CDB2 ;
+		color: #fff ;
+	}
+	
+	::selection {
+		background-color: #21CDB2 ;
+		color: #fff ;
+	}
+	
+	/* to avoid effect of float */
+	.clear-both{ clear:both; }
+	/* to have normal weight */
+	.f-normal{ font-weight:normal;}
+	
+	/* to float elements left and right*/
+	.f-left{ float:left; }
+	.f-right{ float:right; }
+	
+	/*skew common */
+		.skew-common{
+			  border-style: solid;
+			  border-width: 0 98vw 5vw 0;
+			  height: 0;
+			  width: 0;
+		}
+	
