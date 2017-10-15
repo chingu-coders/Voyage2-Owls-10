@@ -20,7 +20,7 @@
 		}
 		
 		.header-title{
-			color:#fff;
+			color:#fff !important;
 		}
 		
 		.header-content{
@@ -28,6 +28,7 @@
 		}
 		
 		.header-content-wrapper{
+			overflow:hidden;
 			margin-bottom:7em ;
 		}
 		
@@ -77,122 +78,3 @@
 		.skew-bottom-hd{
 			  border-color: transparent transparent #FFF #FFF;
 		} 
-		
-		
-		
-/*
-****************************
-Media Queries
-
-    Desktop HD: 1200px
-    Desktop: 1000px
-    Tablet: 750px
-
-    Phablet: 550px
-    Mobile: 400px
-***********************************
-*/
-
-@media (min-width:750px) and (max-width:1270px){
-			
-			.header-content-inner2 img{
-				width:55vw;
-				height:35vw;
-				max-height:30em;
-				max-width:100%;
-			}
-			
-			.header-content-inner1 {
-				margin: 5% 0 0 3%;
-			}
-			
-			.header-content-inner2 {
-				margin: 5% 0 0 3%;
-			}
-			
-			.header-content-wrapper{
-				margin-bottom:3em ;
-			}
-			
-		}
-	
-		@media only screen and (min-width:550px) and (max-width:749px) {
-		
-			.header-content-inner2 img{
-				height:35vw;
-			}
-			
-			.header-content-inner1 {
-				width: 40%;
-			}
-			
-			.header-content-inner1 p:nth-child(1){
-				margin-bottom:0.5em;
-			}
-			
-			.header-content-inner1 p:nth-child(2){
-				font-size:1.5em;
-				color: rgba(255,255,255,0.8);
-			}
-			
-			.header-content-wrapper {
-				margin-bottom: 3em;
-			}
-			
-			.header-content-inner1 img{
-				height: 5em;
-			}
-		}
-		
-	
-		@media only screen and (max-width:549px) {
-			/*Header*/
-			/*navbars*/
-			.header-nav nav{
-				float:none;
-				margin-top:1em;
-			}
-			
-			.header-nav nav a ,
-			.page-header h1	{
-				text-align:center;
-				display:block;
-			}
-			
-			.header-nav nav{
-				width: 100%;
-			}
-			.header-nav nav a{
-				padding:3%;
-			}
-			
-			.header-content-inner1{
-				float:none;
-				margin: 5% 5% 0 5%;
-				width:initial;
-			}
-			
-			.header-content-inner1 p:nth-child(1){
-				font-size: 2em;
-			}
-			
-			.header-content-inner1 p:nth-child(1),
-			.header-content-inner1 p:nth-child(2){
-				text-align:center;
-			}
-			
-			.header-content-inner1 img{
-				margin:0 auto;
-				max-width:40%;
-				display:block;
-				margin-bottom: 5%; /* to give some gap b/w the add to slack and picture */
-			}
-			
-			.header-content-inner2 img{
-				height:75vw;
-			}	
-			
-			.header-content-wrapper {
-				margin-bottom: 1em;
-			}
-		}
